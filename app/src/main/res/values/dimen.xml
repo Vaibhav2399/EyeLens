@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_5dp">5dp</dimen>
+    <dimen name="size_5sp">5sp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_10sp">10sp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_30sp">30sp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_40sp">40sp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_50sp">50sp</dimen>
+    <dimen name="size_60dp">60dp</dimen>
+    <dimen name="size_60sp">60sp</dimen>
+    <dimen name="size_70dp">70dp</dimen>
+    <dimen name="size_70sp">70sp</dimen>
+    <dimen name="size_80dp">80dp</dimen>
+    <dimen name="size_80sp">80sp</dimen>
+
+    <dimen name="size_12sp">12sp</dimen>
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="size_22sp">22sp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_26sp">26sp</dimen>
+    <dimen name="size_28sp">28sp</dimen>
+    <dimen name="size_32sp">32sp</dimen>
+    <dimen name="size_34sp">34sp</dimen>
+    <dimen name="size_36sp">36sp</dimen>
+    <dimen name="size_38sp">38sp</dimen>
+</resources>
