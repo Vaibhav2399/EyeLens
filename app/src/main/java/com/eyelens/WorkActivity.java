@@ -19,5 +19,7 @@ public class WorkActivity extends AppCompatActivity {
         Intent i=getIntent();
         photo=(Bitmap) i.getExtras().get("PHOTO");
         imgFinal.setImageBitmap(photo);
+
+
     }
 }
