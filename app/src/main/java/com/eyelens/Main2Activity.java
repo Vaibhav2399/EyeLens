@@ -1,11 +1,7 @@
 package com.eyelens;
 
-<<<<<<< HEAD
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-public class Main2Activity extends AppCompatActivity {
-=======
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.provider.MediaStore;
@@ -17,29 +13,22 @@ import android.widget.ImageView;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
     ImageView imgClick;
-    Button btnTake,btnConform;
+    Button btnTake, btnConform;
     Bitmap photo;
->>>>>>> PrashilGupta-Update
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-<<<<<<< HEAD
-=======
 
-        imgClick=findViewById(R.id.img_click);
-        btnTake=findViewById(R.id.btn_take);
-        btnConform=findViewById(R.id.btn_go);
+        imgClick = findViewById(R.id.img_click);
+        btnTake = findViewById(R.id.btn_take);
+        btnConform = findViewById(R.id.btn_go);
 
         btnConform.setOnClickListener(this);
         btnTake.setOnClickListener(this);
         imgClick.setOnClickListener(this);
-
-
     }
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -49,23 +38,19 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
             imgClick.setImageBitmap(photo);
         }
     }
-
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.img_click:
             case R.id.btn_take:
-                Intent ci=new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(ci,1888);
+                Intent ci = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(ci, 1888);
                 break;
             case R.id.btn_go:
-                Intent i= new Intent(Main2Activity.this,WorkActivity.class);
-                i.putExtra("PHOTO",photo);
+                Intent i = new Intent(Main2Activity.this, WorkActivity.class);
+                i.putExtra("PHOTO", photo);
                 startActivity(i);
                 break;
-
         }
-
->>>>>>> PrashilGupta-Update
     }
 }

@@ -20,14 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
         <activity android:name=".MainActivity" />
         <activity android:name=".Main2Activity" />
-        <activity android:name=".Main3Activity"></activity>
-=======
-        <activity android:name=".Main2Activity" />
-        <activity android:name=".WorkActivity"></activity>
->>>>>>> PrashilGupta-Update
+        <activity android:name=".WorkActivity"/>
     </application>
 
 </manifest>
