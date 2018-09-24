@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Capture" />
+        android:text="Capture"
+        android:textAllCaps="false"/>
 
     <Button
         android:id="@+id/btn_go"
@@ -30,5 +31,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:text="Confirm" />
+        android:text="Confirm"
+        android:textAllCaps="false"/>
 </LinearLayout>

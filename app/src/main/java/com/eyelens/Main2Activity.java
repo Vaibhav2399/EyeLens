@@ -12,8 +12,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
+    
     ImageView imgClick;
-    Button btnTake, btnConform;
+    Button btnTake, btnConfirm;
     Bitmap photo;
 
     @Override
@@ -23,9 +24,9 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
 
         imgClick = findViewById(R.id.img_click);
         btnTake = findViewById(R.id.btn_take);
-        btnConform = findViewById(R.id.btn_go);
+        btnConfirm = findViewById(R.id.btn_go);
 
-        btnConform.setOnClickListener(this);
+        btnConfirm.setOnClickListener(this);
         btnTake.setOnClickListener(this);
         imgClick.setOnClickListener(this);
     }
@@ -43,7 +44,7 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.img_click:
             case R.id.btn_take:
-                Intent ci = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+                Intent ci = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
                 startActivityForResult(ci, 1888);
                 break;
             case R.id.btn_go:
