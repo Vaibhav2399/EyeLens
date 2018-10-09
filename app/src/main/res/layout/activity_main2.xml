@@ -8,9 +8,27 @@
     android:padding="20dp"
     tools:context=".Main2Activity">
 
-    <TextView
-        android:layout_width="match_parent"
+    <ImageView
+        android:id="@+id/img_click"
+        android:layout_width="399dp"
         android:layout_height="wrap_content"
-        android:text="Now put 2 buttons and code here. @PK"
-        android:textSize="30sp" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/btn_take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Capture" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Confirm" />
 </LinearLayout>
