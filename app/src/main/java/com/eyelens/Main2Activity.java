@@ -13,7 +13,7 @@ import android.widget.ImageView;
 
 public class Main2Activity extends AppCompatActivity implements View.OnClickListener {
     ImageView imgClick;
-    Button btnTake, btnConform;
+    Button btnTake, btnExtractText;
     Bitmap photo;
 
     @Override
@@ -23,9 +23,9 @@ public class Main2Activity extends AppCompatActivity implements View.OnClickList
 
         imgClick = findViewById(R.id.img_click);
         btnTake = findViewById(R.id.btn_take);
-        btnConform = findViewById(R.id.btn_go);
+        btnExtractText = findViewById(R.id.btn_go);
 
-        btnConform.setOnClickListener(this);
+        btnExtractText.setOnClickListener(this);
         btnTake.setOnClickListener(this);
         imgClick.setOnClickListener(this);
     }
